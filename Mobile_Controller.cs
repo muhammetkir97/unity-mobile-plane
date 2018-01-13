@@ -24,7 +24,7 @@ public class ControlPlane : MonoBehaviour {
 		/* not working
 		rotX = Mathf.SmoothDamp (rotX, CrossPlatformInputManager.GetAxis ("Vertical"), ref vel, 0.3f);
 		rotY = Mathf.SmoothDamp (rotY, CrossPlatformInputManager.GetAxis ("Horizontal"), ref vel, 0.3f);
-		*/ 
+		*/
 	
 		transform.Rotate (rotX *  transform.right,Space.World);
 		transform.Rotate (rotY * transform.up,Space.World);
